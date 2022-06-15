@@ -18,7 +18,7 @@ const IndexPage = () => (
     <section className={styles.wrapper}>
       <h1 className={styles.heading}>Welcome to the Gatsby Azure</h1>
       <div>
-        <p>This is the site we built together using Gatsby.</p>
+        <p>Gatsby is a good framework to upskill your React!</p>
         <p>
           Though it may not look like much, it holds all the essentials you'll
           need to get started building your own sites with Gatsby.
