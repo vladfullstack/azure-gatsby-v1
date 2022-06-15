@@ -16,7 +16,7 @@ const IndexPage = () => (
       // article
     />
     <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Welcome to the Project</h1>
+      <h1 className={styles.heading}>Welcome to the Gatsby Azure</h1>
       <div>
         <p>This is the site we built together using Gatsby.</p>
         <p>
