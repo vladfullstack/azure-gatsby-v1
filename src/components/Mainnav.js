@@ -6,7 +6,7 @@ import * as styles from "./mainnav.module.css"
 const Mainnav = ({ menuLinks }) => {
   return (
     <nav className={styles.navigation}>
-      <ul>
+      <ul className="ul">
         {menuLinks.map(props => (
           <li key={props.name}>
             <Link to={props.link}>{props.name}</Link>
