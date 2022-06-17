@@ -10,9 +10,10 @@
   --mod-light: 90%;
   --mod-medium: 50%;
   --mod-dark: 20%;
-  --main-bg-light: hsl(183, 42%, var(--mod-light));
-  --main-bg-medium: hsl(183, 42%, var(--mod-medium));
-  --main-bg-dark: hsl(183, 42%, var(--mod-dark));
+
+  --main-bg-light: hsl(51, 68.6%, var(--mod-light));
+  --main-bg-medium: hsl(51, 68.6%, var(--mod-medium));
+  --main-bg-dark: hsl(51, 68.6%, var(--mod-dark));
 
   /* Sizes and widths */
   --content-w-wide: 80rem;

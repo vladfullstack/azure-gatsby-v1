@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
@@ -18,29 +18,27 @@ const AboutPage = ({ data }) => (
       // article
     />
     <section className={styles.wrapper}>
-      <StaticImage
-        src="../../content/images/robots-androids-and-cyborgs-oh-my-1184x360.jpg"
-        alt="A dinosaur"
-      />
       <h1 className={styles.heading}>About this project</h1>
       <div>
         {data.allFile.edges.map(({ node }) => (
           <GatsbyImage image={getImage(node)} alt={node.name} key={node.id} />
         ))}
         <p>
-          Though it may not look like much, it holds all the essentials you'll
-          need to get started building your own sites with Gatsby.
+          The repository of this Site is in{" "}
+          <a href="https://github.com/vladfullstack/azure-gatsby-v1">
+            Gatsby Starter Project Version 1
+          </a>
         </p>
         <p>
-          Make sure to check out the updated templates to see how the SEO
-          component is used, updated gatsby-node.js file for an additional
-          function to handle markdown articles without subject taxonomies, and
-          feel free to use this site as a template to build your own sites with
-          Gatsby!
+          The original work done by <a href="https://github.com/mor10">mor10</a>{" "}
+          from his course, Learning Gatsby.
         </p>
         <p>
-          And finally, lykke til from me to you on your journey with Gatsby!
+          Deploying to other cloud provider like Gatsby Cloud, Netlify, AWS, GCF
+          etc… sounds fun and we can link here when we have it running.
         </p>
+
+        <p>This Gatsby Demo Site is hosted in Azure Static Web Apps.</p>
       </div>
     </section>
   </Layout>

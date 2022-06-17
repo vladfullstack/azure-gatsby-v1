@@ -11,7 +11,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
     <div className={styles.masthead_info}>
       <Link to="/">
         <img
-          src="/logo.svg"
+          src="/logov1.png"
           width="366"
           height="374"
           alt={siteTitle}

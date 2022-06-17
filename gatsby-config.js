@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    defaultTitle: `The New Site Title`,
+    defaultTitle: `VLAD Demo Site`,
     titleTemplate: `%s · a starting point`,
-    author: `@mor10`,
-    defaultDescription: `An opinionated starter for Gatsby`,
-    siteUrl: `https://something.or.other`,
+    author: `@vladfullstack`,
+    defaultDescription: `A Gatsby Starter Project Version 1`,
+    siteUrl: `https://atticladderph.com`,
     logo: `/logo.png`,
-    twitter: `@mor10`,
+    twitter: `@vladfullstack`,
     menuLinks: [
       {
         name: `Home`,

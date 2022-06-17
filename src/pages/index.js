@@ -16,7 +16,7 @@ const IndexPage = () => (
       // article
     />
     <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Welcome to the Gatsby Azure</h1>
+      <h1 className={styles.heading}>Welcome to Gatsby and Azure</h1>
       <div>
         <p>Gatsby is a good framework to upskill your React!</p>
         <p>
@@ -24,14 +24,13 @@ const IndexPage = () => (
           need to get started building your own sites with Gatsby.
         </p>
         <p>
-          Make sure to check out the updated templates to see how the SEO
-          component is used, updated gatsby-node.js file for an additional
-          function to handle markdown articles without subject taxonomies, and
-          feel free to use this site as a template to build your own sites with
-          Gatsby!
-        </p>
+          This Demo site will transform in many ways and will be utilized to
+          build many great things. We will use this starter as a skeleton to
+          experiment on other features of Gatsby.
+        </p>{" "}
         <p>
-          And finally, lykke til from me to you on your journey with Gatsby!
+          A Final note, Minor changes can be considered from time to time
+          although we view this as the end form.
         </p>
       </div>
     </section>
